@@ -13,7 +13,7 @@ import java.nio.channels.FileLock;
 import java.nio.charset.Charset;
 import java.nio.file.*;
 
-public class FileLockExampleFile1 {
+public class FileLockExample1 {
     public static void main(String[] args) throws IOException,
             InterruptedException {
         Path tempDir = Paths.get(doPrivileged(new GetPropertyAction(

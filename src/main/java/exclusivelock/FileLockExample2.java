@@ -11,7 +11,7 @@ import java.nio.channels.FileChannel;
 import java.nio.channels.FileLock;
 import java.nio.file.*;
 
-public class FileLockExampleFile2 {
+public class FileLockExample2 {
     public static void main(String[] args) throws IOException,
             InterruptedException {
         Path tempDir = Paths.get(doPrivileged(new GetPropertyAction(
